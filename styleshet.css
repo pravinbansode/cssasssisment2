@@ -1,0 +1,107 @@
+.h{
+    border: 4px solid rgba(172, 255, 47, 0.897);
+    height: 1520px;
+    width: 920px;
+}
+.p{
+    border: 4px solid red;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.849);
+    font-style: italic;
+    font-family:'Arial Narrow Bold'Impact, Haettenschweiler, sans-serif,Impact;
+    display:inline-block;
+    height: 70px;
+    width: 250px;
+    margin-top: 20px;
+    color: white;
+}
+
+#p1{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+#p2{
+    height: 40px;
+    margin-left: 40px;
+    margin-right: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.m{
+    position: absolute;
+    top: 35%;
+    right: 75%;
+    border: 2px solid rgba(57, 20, 179, 0.596);
+    height: 100px;
+    width: 300px;
+    border-radius: 150px 150px 0 0;
+    background-color:rgb(21, 190, 190);
+    padding-top: 90px;
+    padding-left: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+
+.f{
+    display:inline-block;
+    height:620px;
+    width: 200px;
+    border: 4px dashed red;
+    margin-top: 30px;
+    margin-left: 50%;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: red;
+}
+
+.menu{
+    height: 50px;
+    width: 300px;
+    border-radius: 30px;
+    border: 4px solid red;
+    margin-left: 30%;
+    margin-top: 60px;
+    padding-left: 20%;
+    padding-top:30px ;
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+
+}   
+.list{
+   
+    display: flex;
+    position: absolute;
+}
+.list1,.list2,.list3 {
+    box-sizing: border-box;
+    height: 250px;
+    width: 250px;
+    border: 2px  solid green;
+    background-color: rgb(135, 220, 235);
+
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.lists{
+    display: flex;
+    position: absolute;
+}
+
+.list4,.list5,.list6{
+    box-sizing: border-box;
+    height: 250px;
+    width: 250px;
+    border: 2px  solid green;
+    background-color: rgb(135, 220, 235);
+    margin-left: 50px;
+    margin-top: 35%;
+    border-radius: 20px;
+}
+.body{
+    background-image: url(image.html.jpg);
+    background-size: cover;
+    height: 1550px;
+    width: 1000px;
+}
